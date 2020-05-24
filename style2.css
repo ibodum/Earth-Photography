@@ -1,0 +1,84 @@
+body{
+	font-family: 'Dancing Script', cursive;
+}
+
+
+@media only screen and (max-width: 600px) {
+ html ,body {
+    width: 100%;
+  }
+}
+
+#photogala{
+	text-align: center;
+	font-size: 70px;
+	color: #896430;
+}
+
+@media only screen and (max-width: 600px) {
+ #photogala {
+    font-size: 120%;
+  }
+}
+
+#maindiv{
+	margin: 20px auto;
+	width: 1000px;
+	height:600px;
+	padding-right: 40px;
+	border: 3px solid #896430;
+}
+
+@media only screen and (max-width: 600px) {
+  #maindiv {
+    width: auto;
+    height: auto;
+   
+  }
+}
+
+.grid{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .gallery{
+    width: 100%;
+  
+  }
+}
+
+  
+img{
+	width: 120px;
+	height: 90px;
+	margin: 5px 5px;
+	float: left;
+	border: 2px solid #896430;
+	box-shadow: 2px 3px #896430;
+	transition: 2s;
+	margin: 10px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+}
+
+
+
+img:hover{
+	transform: scale(1.2);
+}
+
+
+
+
+
